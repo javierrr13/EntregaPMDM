@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEBEB"
+        android:padding="16dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textViewInformacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEBEB"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:text="
+Juego de la galleta ¿COMO FUNCIONAN LAS MEJORAS? Cada mejora duplica el valor del clic, pero el costo también se duplica. Explora el ranking con datos ficticios que planeamos mejorar en futuras actualizaciones. "
+            android:textColor="#000000"
+            android:textSize="18sp"></TextView>
+
+        <Button
+            android:id="@+id/botonVolver"
+            android:onClick="RegresarOpciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:text="Volver al Panel de Opciones"
+            android:backgroundTint="@color/ColorBotones"/>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
